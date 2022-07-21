@@ -33,6 +33,11 @@ body {
     padding-left: 3vw;
 }
 
+.top-ban:hover {
+    background-color: #0c2cb881;
+
+}
+
 .top-ban-detail {
     width: 50%;
     color: whitesmoke;
@@ -70,6 +75,17 @@ body {
 .top-ban-img img {
     margin-left: 5vw;
     margin-top: 2vw;
+}
+
+.top-ban-ball img {
+
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+    position: relative;
+
+    animation: anima 3s ease-in-out .1s infinite alternate;
+    animation-play-state: running;
 }
 
 
